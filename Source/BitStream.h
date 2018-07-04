@@ -2021,6 +2021,7 @@ namespace RakNet
 		return true;
 	}
 
+        /*
 	template <class templateType>
 	BitStream& operator<<(BitStream& out, templateType& c)
 	{
@@ -2036,6 +2037,7 @@ namespace RakNet
 		RakAssert(success);
 		return in;
 	}
+        */
 
 }
 
